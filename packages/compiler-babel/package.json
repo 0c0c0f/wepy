@@ -4,7 +4,9 @@
   "description": "wepy compile babel",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/*.test.js"
+    "test": "mocha ./test/*.test.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "babel"
@@ -14,7 +16,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.1.0"
+    "@babel/core": "^7.1.0",
+    "@snyk/protect": "latest"
   },
   "readme": "ERROR: No README data found!",
   "_id": "@wepy/compiler-babel@2.0.5",
@@ -25,5 +28,6 @@
     "acorn-walk": "^7.1.1",
     "babel-preset-env": "^1.7.0"
   },
-  "gitHead": "5a25776457360bbbbc54a4d059f6bc7c032d5df3"
+  "gitHead": "5a25776457360bbbbc54a4d059f6bc7c032d5df3",
+  "snyk": true
 }
