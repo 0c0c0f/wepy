@@ -50,7 +50,7 @@
     "inquirer": "^5.0.1",
     "js-base64": "^2.1.9",
     "loader-utils": "^1.1.0",
-    "metalsmith": "^2.3.0",
+    "metalsmith": "^2.5.0",
     "mkdirp": "^0.5.1",
     "multimatch": "^2.1.0",
     "ncp": "^2.0.0",
