@@ -65,7 +65,7 @@
     "tildify": "^1.2.0",
     "time-ago": "^0.2.1",
     "tty-table": "^2.8.0",
-    "update-notifier": "^1.0.2",
+    "update-notifier": "^6.0.0",
     "user-home": "^2.0.0",
     "validate-npm-package-name": "^3.0.0",
     "vue-template-compiler": "^2.5.16",
